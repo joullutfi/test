@@ -26,4 +26,3 @@ using System.Xml.Linq;
         </ xpath >
     </ template >
 </ odoo >
-kjj
