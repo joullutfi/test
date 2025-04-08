@@ -25,4 +25,13 @@ using System.Xml.Linq;
             < t - snippet = "website.snippet.snippet" />
         </ xpath >
     </ template >
+     < template id = "index_banner" inherit_id = "website.snippets"
+        name = "Index Banner" >
+        < xpath expr = "//div[@id='snippet_structure']/div[@class='o_panel_body']"
+            position = "inside" >
+            < t - snippet = "website.snippet.snippet" />
+        </ xpath >
+    </ template >
+  >
 </ odoo >
+ 
